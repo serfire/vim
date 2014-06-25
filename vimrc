@@ -7,7 +7,7 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-set guifont=inconsolata\ 18
+set guifont=DejaVu\ Sans\ Mono\ 14
 "set guifont=courier_new:h18:cANSI
 "set gfw=幼圆:h10.5:cGB2312
 set fenc=utf-8
@@ -30,3 +30,6 @@ syntax enable
 colorscheme freya
 "set background=dark
 "colorscheme solarized
+map gn :bn<cr>
+map gp :bp<cr>
+map gd :bd<cr>
